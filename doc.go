@@ -2,7 +2,7 @@
 Package sprig provides template functions for Go.
 
 This package contains a number of utility functions for working with data
-inside of Go `html/template` and `text/template` files.
+inside of Go `html/template` and `github.com/mugli/texttemplate/template` files.
 
 To add these functions, use the `template.Funcs()` method:
 

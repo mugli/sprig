@@ -38,7 +38,7 @@ func empty(given interface{}) bool {
 		return true
 	}
 
-	// Basically adapted from text/template.isTrue
+	// Basically adapted from github.com/mugli/texttemplate/template.isTrue
 	switch g.Kind() {
 	default:
 		return g.IsNil()

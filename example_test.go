@@ -2,8 +2,8 @@ package sprig
 
 import (
 	"fmt"
+	"github.com/mugli/texttemplate/template"
 	"os"
-	"text/template"
 )
 
 func Example() {

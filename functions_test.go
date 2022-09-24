@@ -3,10 +3,10 @@ package sprig
 import (
 	"bytes"
 	"fmt"
+	"github.com/mugli/texttemplate/template"
 	"math/rand"
 	"os"
 	"testing"
-	"text/template"
 	"time"
 
 	"github.com/stretchr/testify/assert"

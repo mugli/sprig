@@ -6,7 +6,7 @@
 [![](https://github.com/Masterminds/sprig/workflows/Tests/badge.svg)](https://github.com/Masterminds/sprig/actions)
 
 The Go language comes with a [built-in template
-language](http://golang.org/pkg/text/template/), but not
+language](http://golang.org/pkg/github.com/mugli/texttemplate/template/), but not
 very many template functions. Sprig is a library that provides more than 100 commonly
 used template functions.
 
@@ -25,10 +25,10 @@ Using v0.3.9 will cause sprig tests to fail.
 
 There are two active major versions of the `sprig` package.
 
-* v3 is currently stable release series on the `master` branch. The Go API should
+- v3 is currently stable release series on the `master` branch. The Go API should
   remain compatible with v2, the current stable version. Behavior change behind
   some functions is the reason for the new major version.
-* v2 is the previous stable release series. It has been more than three years since
+- v2 is the previous stable release series. It has been more than three years since
   the initial release of v2. You can read the documentation and see the code
   on the [release-2](https://github.com/Masterminds/sprig/tree/release-2) branch.
   Bug fixes to this major version will continue for some time.
